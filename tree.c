@@ -1,3 +1,5 @@
+#implémentation d'arbre pour l'algorithme de Huffman 
+
 #include "tree.h"
 #include <stdlib.h>
 #include <stdio.h>
