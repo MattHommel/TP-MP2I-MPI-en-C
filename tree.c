@@ -3,6 +3,7 @@
 #include "tree.h"
 #include <stdlib.h>
 #include <stdio.h>
+#include <stdbool.h>
 
 int max(int x,int y){
     if (x>y){return x;}
@@ -72,6 +73,10 @@ int tree_size(tree_t t){
     else{
         return tree_size(t->left_child)+tree_size(t->right_child)+1;
     }
+}
+
+bool is_empty(tree_t t){
+    return (t==NULL);
 }
 
 int main(){
