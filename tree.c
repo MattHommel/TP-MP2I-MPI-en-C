@@ -1,4 +1,4 @@
-#implémentation d'arbre pour l'algorithme de Huffman 
+/* implémentation d'arbre pour l'algorithme de Huffman */
 
 #include "tree.h"
 #include <stdlib.h>
