@@ -1,5 +1,6 @@
 #ifndef TREE
 #define TREE
+#include <stdbool.h>
 
 struct label_s {int weight; char content;};
 typedef struct label_s label;
@@ -17,5 +18,6 @@ void print_tree(tree_t t);
 void free_tree(tree_t t);
 int tree_height(tree_t t);
 int tree_size(tree_t t);
+bool is_empty(tree_t t);
 
 #endif 
